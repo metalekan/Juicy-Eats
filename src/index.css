@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  user-select: none;
+}
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
